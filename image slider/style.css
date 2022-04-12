@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    text-align: center;
+}
+.slide-container{
+    position: relative;
+    width: 100%;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top:45%;
+    background-color:rgba(19, 6, 97, 0.5);
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+}
+.prev{
+    left:20%;
+}
+.next{
+    right: 20%;
+}
+.caption{
+    position: absolute;
+    bottom:15%;
+    left:43%;
+    font-size: 1.5rem;
+    color:white;
+    background-color: rgba(2, 2, 42, 0.39);
+    padding: 10px 20px;
+    text-align: center;
+}
+.slide{
+    display: none;
+}

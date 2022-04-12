@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="img1.jpg" alt="">
+            <div class="caption">Live a good story.</div>
+        </div>
+
+          <div class="slide">
+            <img src="img2.jpg" alt="">
+            <div class="caption">Keep smiling</div>
+        </div> 
+
+        <div class="slide">
+            <img src="img3.jpg" alt="">
+            <div class="caption">Love the life you live.</div>
+        </div>
+
+        <div class="slide">
+            <img src="img4.jpg" alt="">
+            <div class="caption">Love without limits.</div>
+        </div>
+
+        <div class="slide">
+            <img src="img5.jpg" alt="" width="870px" height="570px">
+            <div class="caption">Breath in the wild air</div>
+        </div>
+
+        <div class="slide">
+            <img src="img6.jpg" alt="">
+            <div class="caption">From another point of view</div>
+        </div>
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
